@@ -1,0 +1,2 @@
+C:\Users\Kevin\AndroidStudioProjects\StellarSurvival\app\build\intermediates\classes\debug
+C:\Users\Kevin\AndroidStudioProjects\StellarSurvival\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-bb1c6f22d57a13f301a34bce3ef1bba01ddb9d5f.jar

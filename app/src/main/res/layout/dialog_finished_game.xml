@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/titleFinishedDialog"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="@color/orange"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:background="@color/orange_trans" />
+    
+    <TextView
+        android:id="@+id/scoreFinishedDialog"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/orange"
+        android:textSize="20sp"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/nameMatchEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:textColor="@color/orange"
+            android:hint="@string/default_name"
+            android:textColorHint="@color/white_trans" >
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/saveMatchButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/icon_save"
+            android:background="@drawable/custom_button" />
+        
+    </LinearLayout>
+    
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center" >
+        
+        <Button
+            android:id="@+id/playNewFinished"
+            android:layout_width="140dp"
+            android:layout_height="64dp"
+            android:layout_margin="5dp"
+            android:text="@string/play_new"
+            android:textSize="27sp"
+            android:textColor="@color/orange"
+            android:background="@drawable/custom_button"
+            android:contentDescription="@string/play"/>
+        
+        <Button
+            android:id="@+id/menuFinished"
+            android:layout_width="140dp"
+            android:layout_height="64dp"
+            android:layout_margin="5dp"
+            android:text="@string/menu"
+            android:textSize="27sp"
+            android:textColor="@color/orange"
+            android:background="@drawable/custom_button"
+            android:contentDescription="@string/menu"/>
+        
+    </LinearLayout>
+    
+</LinearLayout>

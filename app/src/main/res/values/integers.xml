@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="draw_delay">25</integer>
+	<integer name="asteroid_velocity">1</integer>
+	<integer name="spacecraft_velocity">1</integer>
+	<integer name="laser_velocity">1</integer>
+	<integer name="heart">30</integer>
+    <integer name="score">30</integer>
+    <integer name="turbo">100</integer>
+    <integer name="external_joystick">130</integer>
+    <integer name="internal_joystick">80</integer>
+    <integer name="padding_control">40</integer>
+    <integer name="padding_general">10</integer>
+    <integer name="asteroid">45</integer> 
+    <integer name="spacecraft">80</integer> 
+    <integer name="laser_width">3</integer>
+    <integer name="laser_height">10</integer>
+    <integer name="num_asteroids">5</integer>
+</resources>

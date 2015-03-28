@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.stellarsurvival.MainActivity">
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame"
+        android:background="@drawable/space_background" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:gravity="center" >
+	
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/scoreTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/settingsImageView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:src="@drawable/icon_settings"
+            android:contentDescription="@string/action_settings" />
+
+    </LinearLayout>
+    
+    <ImageView 
+        android:id="@+id/externalJoystickView"
+     	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+        android:background="@drawable/joystick_external" />
+    
+    <ImageView 
+        android:id="@+id/internalJoystickView"
+     	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+        android:background="@drawable/joystick_internal" />
+    
+    <ImageButton
+            android:id="@+id/turbo_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/joystick_external"
+            android:src="@drawable/thunder"
+            android:textColor="@color/white_trans" />
+</RelativeLayout>
