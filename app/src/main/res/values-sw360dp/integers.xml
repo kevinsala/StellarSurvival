@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <integer name="draw_delay">13</integer>
+    <integer name="draw_delay">25</integer>
 	<integer name="asteroid_velocity">2</integer>
 	<integer name="spacecraft_velocity">3</integer>
 	<integer name="laser_velocity">3</integer>
-	<integer name="turbo">200</integer>
-    <integer name="external_joystick">200</integer>
-    <integer name="internal_joystick">100</integer>
+	<integer name="turbo">275</integer>
+    <integer name="external_joystick">275</integer>
+    <integer name="internal_joystick">138</integer>
     <integer name="padding_control">40</integer>
     <integer name="padding_general">10</integer>
     <integer name="asteroid">70</integer> 

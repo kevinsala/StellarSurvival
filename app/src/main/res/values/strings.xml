@@ -34,7 +34,7 @@
     <string name="help">Help</string>
     <string name="title_activity_mode">ModeActivity</string>
     <string name="hello_world">Hello world!</string>
-    <string name="helpDescription">Description\nUse the joystick to rotate the spaceship. Tap the screen to shoot.
-         Tap the right button to accelerate the ship</string>
+    <string name="aboutTitle">About</string>
+    <string name="aboutDescription">Stellar Survival by Kevin Sala\nContact: kevinsala.ks@gmail.com</string>
 
 </resources>

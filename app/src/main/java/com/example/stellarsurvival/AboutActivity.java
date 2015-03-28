@@ -1,17 +1,13 @@
 package com.example.stellarsurvival;
 
 import android.app.Activity;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.TextView;
 
-public class HelpActivity extends Activity {
-	
-	private Typeface tf;
+public class AboutActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -19,12 +15,7 @@ public class HelpActivity extends Activity {
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN);
-		setContentView(R.layout.activity_help);
-		
-		tf = Typeface.createFromAsset(getAssets(), "fonts/Digital_tech.otf");
-		
-		TextView help = (TextView) findViewById(R.id.helpText);
-		help.setTypeface(tf);
+		setContentView(R.layout.activity_about);
 	}
 
 	@Override

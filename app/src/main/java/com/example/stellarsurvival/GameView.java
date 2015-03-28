@@ -312,15 +312,15 @@ public class GameView extends SurfaceView implements
 				parent.getVelocityX(), yVel = parent.getVelocityY();
 		switch(parent.getSize()) {
 			case Asteroid.MED_ASTEROID:
-				Asteroid small1 = new Asteroid(this, x, y, -xVel, yVel+1, Asteroid.SMALL_ASTEROID);
-				Asteroid small2 = new Asteroid(this, x, y, xVel+2, yVel, Asteroid.SMALL_ASTEROID);
+				Asteroid small1 = new Asteroid(this, x, y, -xVel, yVel+(float)0.1, Asteroid.SMALL_ASTEROID);
+				Asteroid small2 = new Asteroid(this, x, y, xVel+(float)0.3, yVel, Asteroid.SMALL_ASTEROID);
 				asteroidArray.add(small1);
 				asteroidArray.add(small2);
 				break;
 				
 			case Asteroid.BIG_ASTEROID:
-				Asteroid med1 = new Asteroid(this, x, y, -xVel, yVel+1, Asteroid.MED_ASTEROID);
-				Asteroid med2 = new Asteroid(this, x, y, xVel+2, -yVel, Asteroid.MED_ASTEROID);
+				Asteroid med1 = new Asteroid(this, x, y, -xVel, yVel+(float)0.3, Asteroid.MED_ASTEROID);
+				Asteroid med2 = new Asteroid(this, x, y, xVel+(float)0.3, -yVel, Asteroid.MED_ASTEROID);
 				Asteroid med3 = new Asteroid(this, x, y, -yVel, -yVel, Asteroid.MED_ASTEROID);
 				Asteroid med4 = new Asteroid(this, x, y, yVel, yVel, Asteroid.MED_ASTEROID);
 				asteroidArray.add(med1);
